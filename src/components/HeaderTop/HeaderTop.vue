@@ -1,5 +1,5 @@
 <template>
-   <header class="header">
+  <header class="header">
     <slot name="left"></slot>
     <span class="header_title">
       <span class="header_title_text ellipsis">{{title}}</span>
@@ -8,12 +8,13 @@
   </header>
 </template>
 
-<script type="text/ecmascript-6">
-    export default {
-      props:{
-        title:String
-      }
-    }
+<script>
+
+  export default {
+    props: {
+      title: String
+    },
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
